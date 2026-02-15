@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 1.4em;
+}
+.logo{
+    font-size: 2em;
+    padding-left: 10px;
+}
+header ul{
+    padding-right: 10px;
+    font-size: 1.4em;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: aqua; */
+}
+main ul{
+    padding-right: 10px;
+    font-size: 1.4em;
+}
+main ul li{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+main div{
+    width: 75%;
+    text-align: center;
+    /* background-color: red; */
+}
+main h2{
+    padding-bottom: 30px;
+    /* background-color: aquamarine; */
+}
+main img{
+    width: 35%;
+    margin: auto;
+}
